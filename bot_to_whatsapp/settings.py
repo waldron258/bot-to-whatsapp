@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '1irxob-319zsyxo_xxt)1823r@9x4eqrz^u@evc22u54ctu58-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -86,8 +86,8 @@ WSGI_APPLICATION = 'bot_to_whatsapp.wsgi.application'
 
 
 DATABASES = {
-    # Local
-    # 'default': {
+    #Local
+    #'default': {
     #    'ENGINE': 'django.db.backends.sqlite3',
     #    'NAME': BASE_DIR / 'db.sqlite3',
     #}
