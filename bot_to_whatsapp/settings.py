@@ -27,7 +27,7 @@ SECRET_KEY = '1irxob-319zsyxo_xxt)1823r@9x4eqrz^u@evc22u54ctu58-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://bottowhatsapp.herokuapp.com/']
 
 
 # Application definition
