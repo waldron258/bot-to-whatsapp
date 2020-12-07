@@ -5,7 +5,7 @@ from django.db import models
 class Customer_Information(models.Model):
     name = models.CharField(max_length=100)
     service = models.CharField(max_length=100)
-    email = models.EmailField()
+    email = models.CharField(max_length=100)
     phone = models.CharField(max_length=100)
     company = models.CharField(max_length=100)
     company_location = models.CharField(max_length=100)
