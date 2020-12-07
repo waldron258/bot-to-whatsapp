@@ -1,0 +1,1 @@
+web: gunicorn bot_to_whatsapp.wsgi --log-file -
