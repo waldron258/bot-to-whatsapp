@@ -13,8 +13,8 @@ import os
 from twilio.rest import Client
 # Your Account Sid and Auth Token from twilio.com/console
 # and set the environment variables. See http://twil.io/secure
-account_sid = os.environ['TWILIO_ACCOUNT_SID']
-auth_token = os.environ['TWILIO_AUTH_TOKEN']
+account_sid = 'AC2136f7825633c94f26624893a45e8e9d'
+auth_token = 'fc429fb8cd6e55852aca4eaa44b4bad4'
 client = Client(account_sid, auth_token)
 # End Twilio stuff
 
